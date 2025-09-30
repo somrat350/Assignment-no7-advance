@@ -40,7 +40,7 @@ const Task = ({ setDetails, task }) => {
       <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2 sm:gap-0">
         <div className="flex justify-between sm:justify-normal items-center gap-2 text-sm font-medium">
           <span className="text-[#627382]">#100{task.id}</span>
-          <span>{task.priority} Priority</span>
+          <span className="text-base" style={{color: `${task.priority==="High"?"#FF4D4F":task.priority==="Medium"?"#FEBB0C":"#02A53B"}`}}>{task.priority} Priority</span>
         </div>
         <div className="flex justify-between sm:justify-normal items-center gap-2 text-[#627382] text-sm font-medium">
           <span>{task.customer}</span>
