@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Login not working",
+    "description": "User reports being unable to log into their account.",
+    "customer": "John",
+    "priority": "High",
+    "createdAt": "2025-09-20",
+    "status": "New"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway error",
+    "description": "Checkout fails with a 502 error when paying with credit card.",
+    "customer": "Alice",
+    "priority": "High",
+    "createdAt": "2025-09-21",
+    "status": "New"
+  },
+  {
+    "id": 3,
+    "title": "Slow website performance",
+    "description": "Customer experiencing long load times on dashboard.",
+    "customer": "Michael",
+    "priority": "Medium",
+    "createdAt": "2025-09-22",
+    "status": "In-progress"
+  },
+  {
+    "id": 4,
+    "title": "Forgot password email not sent",
+    "description": "User not receiving reset password link.",
+    "customer": "Sophia",
+    "priority": "High",
+    "createdAt": "2025-09-19",
+    "status": "In-progress"
+  },
+  {
+    "id": 5,
+    "title": "UI bug on mobile",
+    "description": "Navigation menu overlaps content on small screens.",
+    "customer": "David",
+    "priority": "Low",
+    "createdAt": "2025-09-18",
+    "status": "Resolved"
+  },
+  {
+    "id": 6,
+    "title": "API returning 401 error",
+    "description": "Customer API key authentication fails unexpectedly.",
+    "customer": "Emma",
+    "priority": "High",
+    "createdAt": "2025-09-23",
+    "status": "Resolved"
+  }
+]
